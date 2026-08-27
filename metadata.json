@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora de Desconto",
+  "description": "Calculadora de desconto e percentagem de poupança aplicada a serviços e produtos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
