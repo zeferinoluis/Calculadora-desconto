@@ -33,6 +33,8 @@ class ExampleRobolectricTest {
     assertEquals(38.0, result.finalPrice, 0.001)
     assertEquals(22.0, result.discountAmount, 0.001)
     assertEquals(36.6666, result.discountPercent, 0.01)
+    assertEquals("36,6667%", result.formattedPercent)
+    assertEquals("22,0000 €", result.formattedDiscountAmount)
   }
 
   @Test

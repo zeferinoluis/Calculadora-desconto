@@ -252,7 +252,7 @@ fun DiscountCalculatorScreen(
                                 verticalArrangement = Arrangement.spacedBy(6.dp)
                             ) {
                                 Text(
-                                    text = if (result.isValid) result.formattedPercent else "0%",
+                                    text = if (result.isValid) result.formattedPercent else "0,0000%",
                                     style = MaterialTheme.typography.displayMedium.copy(
                                         fontWeight = FontWeight.Bold,
                                         fontSize = 42.sp

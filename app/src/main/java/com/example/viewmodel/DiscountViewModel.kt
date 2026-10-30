@@ -22,8 +22,8 @@ data class SimpleDiscountResult(
             decimalSeparator = ','
             groupingSeparator = '.'
         }
-        private val currencyFormat = DecimalFormat("#,##0.00", symbols)
-        private val percentFormat = DecimalFormat("0.00", symbols)
+        private val currencyFormat = DecimalFormat("#,##0.0000", symbols)
+        private val percentFormat = DecimalFormat("0.0000", symbols)
 
         fun formatCurrency(value: Double): String = "${currencyFormat.format(value)} €"
         fun formatPercent(value: Double): String = "${percentFormat.format(value)}%"
